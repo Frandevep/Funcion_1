@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-void lafuncion();
+void lafuncion(); //Creamos el prototipo de la funcion
 
 
 int main()
 {
-    lafuncion();
+    lafuncion(); //la llevamos al main
 
     return 0;
 }
 
-void lafuncion(){
+void lafuncion(){ //abrimos la funcion
 
-    printf("Hola esto es una funcion");
+    printf("Hola esto es una funcion"); //entre llaves metemos lo que deseamos poner en la funcion
 }
